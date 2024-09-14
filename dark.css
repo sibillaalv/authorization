@@ -1,0 +1,82 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(./images/dark.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aliceblue;
+    padding: 4%;
+    width: 700px ;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form>p {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 140px;
+}
+
+.login, .password{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.password {
+    position: relative;
+}
+.password>p {
+    text-align: right;
+
+}
+.password :nth-child(4) {
+    position: absolute;
+    right: 5px;
+    top: 32px;
+    width: 19px;
+    height: 19px;
+   
+}
+
+#Email , #password {
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 3px;
+    border: 0.5px solid gray;
+}
+
+input, button {
+    padding: 1%;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: 0.5px solid blue;
+    border-radius: 3px ;
+}
+
+.first_version {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    color: azure;
+}
